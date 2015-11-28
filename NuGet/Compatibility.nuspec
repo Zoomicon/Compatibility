@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+
+  <metadata>
+    <id>Compatibility</id>
+    <version>1.0.0</version>
+    <title>Compatibility</title>
+    <authors>birbilis</authors>
+    <owners>birbilis</owners>
+    <licenseUrl>https://github.com/Zoomicon/Compatibility/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/Zoomicon/Compatibility</projectUrl>
+    <iconUrl>http://zoomicon.com/logo.jpg</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <developmentDependency>true</developmentDependency>
+    <description>Add this library to Silverlight and WPF projects to implement missing/different functionality so that you can port more easily code from one platform to the other</description>
+    <releaseNotes />
+    <copyright>Copyright 2015</copyright>
+    <tags>Silverlight WPF Compatibility</tags>
+
+    <dependencies>
+      <group targetFramework=".NETFramework4.0-client">
+        <dependency id="WPFToolkit" version="2.5.0" />
+        <dependency id="Extended.Wpf.Toolkit" version="3.5.50211.1" />
+      </group>
+    </dependencies>
+
+  </metadata>
+
+  <files>
+    <!-- Silverlight 5 -->
+    <file src="..\Compatibility.Silverlight\Bin\Release\Compatibility.dll" target="lib\sl5\Compatibility.dll" />
+    <!-- Windows Phone 7.1 (Mango) / wp71 = sl4-windowsphone71 -->
+    <file src="..\Compatibility.Silverlight\Bin\Release\Compatibility.dll" target="lib\wp71\Compatibility.dll" />
+    <!-- Windows Phone 8 (Silverlight-based) -->
+    <file src="..\Compatibility.Silverlight\Bin\Release\Compatibility.dll" target="lib\windowsphone8\Compatibility.dll" />
+    <!-- WPF -->
+    <file src="..\Compatibility.WPF\Bin\Release\Compatibility.dll" target="lib\net40-client\Compatibility.dll" />
+  </files>
+
+</package>
