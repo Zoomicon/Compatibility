@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DC154E89-74E8-4ADC-95B5-0772CA254F71}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Compatibility</RootNamespace>
+    <AssemblyName>Compatibility</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows.Controls.Input.Toolkit, Version=3.5.40128.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WPFToolkit.3.5.50211.1\lib\System.Windows.Controls.Input.Toolkit.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Controls.Layout.Toolkit, Version=3.5.40128.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WPFToolkit.3.5.50211.1\lib\System.Windows.Controls.Layout.Toolkit.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WPFToolkit, Version=3.5.40128.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WPFToolkit.3.5.50211.1\lib\WPFToolkit.dll</HintPath>
+      <Private>True</Private>
+      <Aliases>WPFToolit</Aliases>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock, Version=2.5.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.2.5\lib\net40\Xceed.Wpf.AvalonDock.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Aero, Version=2.5.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.2.5\lib\net40\Xceed.Wpf.AvalonDock.Themes.Aero.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Metro, Version=2.5.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.2.5\lib\net40\Xceed.Wpf.AvalonDock.Themes.Metro.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.VS2010, Version=2.5.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.2.5\lib\net40\Xceed.Wpf.AvalonDock.Themes.VS2010.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xceed.Wpf.DataGrid, Version=2.5.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.2.5\lib\net40\Xceed.Wpf.DataGrid.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xceed.Wpf.Toolkit, Version=2.5.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.2.5\lib\net40\Xceed.Wpf.Toolkit.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Source\Accordion.cs">
+      <Link>Accordion.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\AccordionItem.cs">
+      <Link>AccordionItem.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\ApplicationException.cs">
+      <Link>ApplicationException.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\ApplicationExtensions.cs">
+      <Link>ApplicationExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\BooleanToVisibilityConverter.cs">
+      <Link>BooleanToVisibilityConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\BusyIndicator.cs">
+      <Link>BusyIndicator.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\ChildWindow.cs">
+      <Link>ChildWindow.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Clipper.cs">
+      <Link>Clipper.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\CoerceValueCallback.cs">
+      <Link>CoerceValueCallback.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Expander.cs">
+      <Link>Expander.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\FrameworkPropertyMetadata.cs">
+      <Link>FrameworkPropertyMetadata.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\IsolatedStorageSettings.cs">
+      <Link>IsolatedStorageSettings.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Label.cs">
+      <Link>Label.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\MouseButton.cs">
+      <Link>MouseButton.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\ScriptableMemberAttribute.cs">
+      <Link>ScriptableMemberAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\ScriptableTypeAttribute.cs">
+      <Link>ScriptableTypeAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\ValueConversionAttribute.cs">
+      <Link>ValueConversionAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Visual.cs">
+      <Link>Visual.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Decorator.cs">
+      <Link>Decorator.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\DependencyObjectExtensions.cs">
+      <Link>DependencyObjectExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\DependencyPropertyExt.cs">
+      <Link>DependencyPropertyExt.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\DesignerProperties.cs">
+      <Link>DesignerProperties.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\ExitEventArgs.cs" />
+    <Compile Include="..\Source\RectExtensions.cs">
+      <Link>RectExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\ScaleTransformExtensions.cs">
+      <Link>ScaleTransformExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\UIElementExtensions.cs">
+      <Link>UIElementExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\XamlReader.cs">
+      <Link>XamlReader.cs</Link>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Compatibility.cd">
+      <Link>Compatibility.cd</Link>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
