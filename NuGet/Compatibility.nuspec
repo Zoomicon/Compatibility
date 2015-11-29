@@ -4,7 +4,7 @@
 
   <metadata>
     <id>Compatibility</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <title>Compatibility</title>
     <authors>birbilis</authors>
     <owners>birbilis</owners>
@@ -19,7 +19,7 @@
     <tags>Silverlight WPF Compatibility</tags>
 
     <dependencies>
-      <group targetFramework=".NETFramework4.0-client">
+      <group targetFramework="net40-client">
         <dependency id="WPFToolkit" version="3.5.50211.1" />
         <dependency id="Extended.Wpf.Toolkit" version="2.5.0" />
       </group>
