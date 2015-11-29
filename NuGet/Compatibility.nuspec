@@ -4,7 +4,7 @@
 
   <metadata>
     <id>Compatibility</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>Compatibility</title>
     <authors>birbilis</authors>
     <owners>birbilis</owners>
@@ -20,8 +20,8 @@
 
     <dependencies>
       <group targetFramework=".NETFramework4.0-client">
-        <dependency id="WPFToolkit" version="2.5.0" />
-        <dependency id="Extended.Wpf.Toolkit" version="3.5.50211.1" />
+        <dependency id="WPFToolkit" version="3.5.50211.1" />
+        <dependency id="Extended.Wpf.Toolkit" version="2.5.0" />
       </group>
     </dependencies>
 
