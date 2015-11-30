@@ -4,7 +4,7 @@
 
   <metadata>
     <id>Compatibility</id>
-    <version>1.0.2</version>
+    <version>1.1.1</version>
     <title>Compatibility</title>
     <authors>birbilis</authors>
     <owners>birbilis</owners>
@@ -31,9 +31,9 @@
     <!-- Silverlight 5 -->
     <file src="..\Compatibility.Silverlight\Bin\Release\Compatibility.dll" target="lib\sl5\Compatibility.dll" />
     <!-- Windows Phone 7.1 (Mango) / wp71 = sl4-windowsphone71 -->
-    <file src="..\Compatibility.Silverlight\Bin\Release\Compatibility.dll" target="lib\wp71\Compatibility.dll" />
+    <file src="..\Compatibility.WP7\Bin\Release\Compatibility.dll" target="lib\wp71\Compatibility.dll" />
     <!-- Windows Phone 8 (Silverlight-based) -->
-    <file src="..\Compatibility.Silverlight\Bin\Release\Compatibility.dll" target="lib\windowsphone8\Compatibility.dll" />
+    <file src="..\Compatibility.WP8\Bin\Release\Compatibility.dll" target="lib\windowsphone8\Compatibility.dll" />
     <!-- WPF -->
     <file src="..\Compatibility.WPF\Bin\Release\Compatibility.dll" target="lib\net40-client\Compatibility.dll" />
   </files>
