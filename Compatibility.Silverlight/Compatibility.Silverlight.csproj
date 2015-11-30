@@ -98,17 +98,26 @@
     <Compile Include="..\Source\CoerceValueCallback.cs">
       <Link>CoerceValueCallback.cs</Link>
     </Compile>
+    <Compile Include="..\Source\CompositeTransform.cs">
+      <Link>CompositeTransform.cs</Link>
+    </Compile>
     <Compile Include="..\Source\DockPanel.cs">
       <Link>DockPanel.cs</Link>
     </Compile>
     <Compile Include="..\Source\Expander.cs">
       <Link>Expander.cs</Link>
     </Compile>
+    <Compile Include="..\Source\FocusManager.cs">
+      <Link>FocusManager.cs</Link>
+    </Compile>
     <Compile Include="..\Source\FrameworkPropertyMetadata.cs">
       <Link>FrameworkPropertyMetadata.cs</Link>
     </Compile>
     <Compile Include="..\Source\IsolatedStorageSettings.cs">
       <Link>IsolatedStorageSettings.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\KeyboardNavigation.cs">
+      <Link>KeyboardNavigation.cs</Link>
     </Compile>
     <Compile Include="..\Source\Label.cs">
       <Link>Label.cs</Link>
