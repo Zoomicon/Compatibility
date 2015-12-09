@@ -1,95 +1,193 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="System.ApplicationException" Collapsed="true">
-    <Position X="0.5" Y="0.5" Width="1.75" />
+  <Class Name="Compatibility.Accordion" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\George\Dropbox\ClipFlairDev\SourcePackages\Compatibility\Source\Accordion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Compatibility.AccordionItem" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>C:\Dropbox\ClipFlairDev\ClipFlair_Source\Client\Compatibility\Source\ApplicationException.cs</FileName>
+      <FileName>C:\Users\George\Dropbox\ClipFlairDev\SourcePackages\Compatibility\Source\AccordionItem.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="System.Windows.Controls.BooleanToVisibilityConverter" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="2.5" Y="0.5" Width="2.25" />
+  <Class Name="Compatibility.VisualStates" Collapsed="true">
+    <Position X="2.25" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>C:\Dropbox\ClipFlairDev\ClipFlair_Source\Client\Compatibility\Source\BooleanToVisibilityConverter.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" Collapsed="true" />
-  </Class>
-  <Class Name="System.Windows.FrameworkPropertyMetadata" Collapsed="true">
-    <Position X="5" Y="0.5" Width="2.25" />
-    <TypeIdentifier>
-      <HashCode>AAiAAAIIAQAAAABAAAAAAAIAAAAAAACAAAAAAAAAABA=</HashCode>
-      <FileName>C:\Dropbox\ClipFlairDev\ClipFlair_Source\Client\Compatibility\Source\FrameworkPropertyMetadata.cs</FileName>
+      <HashCode>AEAABAAAAAAEAAAAAAAAEAAAAAABAABAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\George\Dropbox\ClipFlairDev\SourcePackages\Compatibility\Source\BusyIndicator.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="System.Windows.Data.ValueConversionAttribute" Collapsed="true">
-    <Position X="7.5" Y="0.5" Width="2" />
+  <Class Name="Compatibility.BusyIndicator" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAEACAAABAAAAAAAAAIAAAAAAAAIAgAAAAiAAAAAA=</HashCode>
-      <FileName>C:\Dropbox\ClipFlairDev\ClipFlair_Source\Client\Compatibility\Source\ValueConversionAttribute.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\George\Dropbox\ClipFlairDev\SourcePackages\Compatibility\Source\BusyIndicator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Compatibility.ChildWindowExt" Collapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\George\Dropbox\ClipFlairDev\SourcePackages\Compatibility\Source\ChildWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Compatibility.Clipper" Collapsed="true">
+    <Position X="2.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAEAAAAAAAAGIAAAAABIAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>C:\Users\George\Dropbox\ClipFlairDev\SourcePackages\Compatibility\Source\Clipper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Compatibility.DependencyObjectExtensions" Collapsed="true">
+    <Position X="4.25" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>C:\Users\George\Dropbox\ClipFlairDev\SourcePackages\Compatibility\Source\DependencyObjectExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Compatibility.DependencyPropertyExt" Collapsed="true">
+    <Position X="4.25" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\George\Dropbox\ClipFlairDev\SourcePackages\Compatibility\Source\DependencyPropertyExt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Compatibility.DesignerProperties" Collapsed="true">
+    <Position X="2.25" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\George\Dropbox\ClipFlairDev\SourcePackages\Compatibility\Source\DesignerProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Compatibility.DockPanel" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\George\Dropbox\ClipFlairDev\SourcePackages\Compatibility\Source\DockPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Compatibility.Expander" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\George\Dropbox\ClipFlairDev\SourcePackages\Compatibility\Source\Expander.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Compatibility.FocusManager" Collapsed="true">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>C:\Users\George\Dropbox\ClipFlairDev\SourcePackages\Compatibility\Source\FocusManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Compatibility.Label" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\George\Dropbox\ClipFlairDev\SourcePackages\Compatibility\Source\Label.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Compatibility.RectExtensions" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>C:\Users\George\Dropbox\ClipFlairDev\SourcePackages\Compatibility\Source\RectExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Compatibility.ScaleTransformExtensions" Collapsed="true">
+    <Position X="4.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>C:\Users\George\Dropbox\ClipFlairDev\SourcePackages\Compatibility\Source\ScaleTransformExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Compatibility.UIElementExtensions" Collapsed="true">
+    <Position X="4.25" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAA=</HashCode>
+      <FileName>C:\Users\George\Dropbox\ClipFlairDev\SourcePackages\Compatibility\Source\UIElementExtensions.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Compatibility.Visual" Collapsed="true">
-    <Position X="0.5" Y="1.5" Width="1.5" />
+    <Position X="0.5" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AEACECAAFAgAAEAAEAgAAEIABACAgAAAAAAAIAAQAAA=</HashCode>
-      <FileName>C:\Dropbox\ClipFlairDev\ClipFlair_Source\Client\Compatibility\Source\Visual.cs</FileName>
+      <FileName>C:\Users\George\Dropbox\ClipFlairDev\SourcePackages\Compatibility\Source\Visual.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Compatibility.DependencyObject" Collapsed="true">
-    <Position X="2.5" Y="1.5" Width="2" />
+  <Class Name="Compatibility.XamlReader" Collapsed="true">
+    <Position X="2.25" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
-      <FileName>C:\Dropbox\ClipFlairDev\ClipFlair_Source\Client\Compatibility\Source\DependencyObjectExtensions.cs</FileName>
+      <HashCode>AAAggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\George\Dropbox\ClipFlairDev\SourcePackages\Compatibility\Source\XamlReader.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Compatibility.DependencyProperty" Collapsed="true">
-    <Position X="5" Y="1.5" Width="2" />
+  <Class Name="System.ApplicationException" Collapsed="true">
+    <Position X="4.25" Y="5" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>C:\Dropbox\ClipFlairDev\ClipFlair_Source\Client\Compatibility\Source\DependencyPropertyExt.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\George\Dropbox\ClipFlairDev\SourcePackages\Compatibility\Source\ApplicationException.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Compatibility.Rect" Collapsed="true">
-    <Position X="7.5" Y="1.5" Width="1.5" />
+  <Class Name="System.Windows.ApplicationExtensions" Collapsed="true">
+    <Position X="4.25" Y="4.25" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
-      <FileName>C:\Dropbox\ClipFlairDev\ClipFlair_Source\Client\Compatibility\Source\RectExtensions.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\George\Dropbox\ClipFlairDev\SourcePackages\Compatibility\Source\ApplicationExtensions.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Compatibility.ScaleTransform" Collapsed="true">
-    <Position X="0.5" Y="2.5" Width="1.75" />
+  <Class Name="System.Windows.FrameworkPropertyMetadata" Collapsed="true">
+    <Position X="4.25" Y="2" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
-      <FileName>C:\Dropbox\ClipFlairDev\ClipFlair_Source\Client\Compatibility\Source\ScaleTransformExtensions.cs</FileName>
+      <HashCode>AAiAAAIIAQAAAABAAAAAAAIAAAAAAACAAAAAAAAAABA=</HashCode>
+      <FileName>C:\Users\George\Dropbox\ClipFlairDev\SourcePackages\Compatibility\Source\FrameworkPropertyMetadata.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Compatibility.UIElement" Collapsed="true">
-    <Position X="2.5" Y="2.5" Width="1.5" />
+  <Class Name="System.Windows.Controls.BooleanToVisibilityConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="0.5" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAA=</HashCode>
-      <FileName>C:\Dropbox\ClipFlairDev\ClipFlair_Source\Client\Compatibility\Source\UIElementExtensions.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\George\Dropbox\ClipFlairDev\SourcePackages\Compatibility\Source\BooleanToVisibilityConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.Input.KeyboardNavigation" Collapsed="true">
+    <Position X="2.25" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\George\Dropbox\ClipFlairDev\SourcePackages\Compatibility\Source\KeyboardNavigation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Data.ValueConversionAttribute" Collapsed="true">
+    <Position X="6.75" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAEACAAABAAAAAAAAAIAAAAAAAAIAgAAAAiAAAAAA=</HashCode>
+      <FileName>C:\Users\George\Dropbox\ClipFlairDev\SourcePackages\Compatibility\Source\ValueConversionAttribute.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Enum Name="System.Windows.FrameworkPropertyMetadataOptions" Collapsed="true">
-    <Position X="0.5" Y="3.75" Width="2.75" />
+    <Position X="4.25" Y="5.75" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAEAAgAAAAAAAAAAAAAAAAAAAAgAAAAAAQEAAAA=</HashCode>
-      <FileName>C:\Dropbox\ClipFlairDev\ClipFlair_Source\Client\Compatibility\Source\FrameworkPropertyMetadata.cs</FileName>
+      <FileName>C:\Users\George\Dropbox\ClipFlairDev\SourcePackages\Compatibility\Source\FrameworkPropertyMetadata.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="System.Windows.Input.MouseButton" Collapsed="true">
-    <Position X="3.5" Y="3.75" Width="1.5" />
+    <Position X="2.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAACAAAAAAAAAABAAAAAAAAAAAAAACACQAAAAAAA=</HashCode>
-      <FileName>C:\Dropbox\ClipFlairDev\ClipFlair_Source\Client\Compatibility\Source\MouseButton.cs</FileName>
+      <FileName>C:\Users\George\Dropbox\ClipFlairDev\SourcePackages\Compatibility\Source\MouseButton.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Delegate Name="System.Windows.CoerceValueCallback" Collapsed="true">
-    <Position X="0.5" Y="4.75" Width="1.75" />
+    <Position X="7" Y="2" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
-      <FileName>C:\Dropbox\ClipFlairDev\ClipFlair_Source\Client\Compatibility\Source\CoerceValueCallback.cs</FileName>
+      <FileName>C:\Users\George\Dropbox\ClipFlairDev\SourcePackages\Compatibility\Source\CoerceValueCallback.cs</FileName>
     </TypeIdentifier>
   </Delegate>
   <Font Name="Tahoma" Size="8.25" />
