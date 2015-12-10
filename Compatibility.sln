@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24627.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compatibility.Silverlight", "Compatibility.Silverlight\Compatibility.Silverlight.csproj", "{7DC832CC-2D97-4DBC-B963-3F77C1F20730}"
 EndProject
@@ -14,6 +14,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{C44B2B98-42E6-457D-B97E-EEBD09E21967}"
 	ProjectSection(SolutionItems) = preProject
 		NuGet\Compatibility.nuspec = NuGet\Compatibility.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6C8F58B3-2550-4780-B0FE-82DE6D5F21AC}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global
